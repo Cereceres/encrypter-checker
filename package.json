@@ -1,0 +1,25 @@
+{
+  "name": "lambda_check_encrypt",
+  "version": "1.0.0",
+  "description": "listen the s3 event and check if object is encypted",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.141.0",
+    "co": "^4.6.0",
+    "joi": "^13.0.1",
+    "s3-upload-stream": "^1.0.7"
+  },
+  "devDependencies": {
+    "aws-lambda-testing": "^0.2.1",
+    "nock": "^9.0.27"
+  }
+}
